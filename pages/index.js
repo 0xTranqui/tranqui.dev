@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
           Twitter
         </a>
         <div 
-          style={{ paddingLeft: "5%", paddingRight: "5%", fontSize: "1.2rem", lineHeight: "1.5" }}
+          style={{ paddingLeft: "5px", paddingRight: "5px", fontSize: "1.2rem", lineHeight: "1.5" }}
         >
           |
         </div>
