@@ -7,7 +7,7 @@ gh repo clone 0xTranqui/tranqui.dev
 
 2. Update site header by opening components/layout.js and adjusting line 32 and line 40
 
-3. For basic content adjustments, open pages/index.js and adjust section titles, content, and hyperlinks
+3. For basic content updates, open pages/index.js and adjust section titles, content, and hyperlinks
 
 4. The rest is up to you
 
