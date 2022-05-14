@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
               <a href="https://twitter.com/0xTranqui/status/1506722429208567819?s=20&t=rZAv8pnSvFP0vSqJbSoS4Q">
-              Unofficial Guide to the ZORA Protocol
+              Unofficial Guide to the Zora Protocol
               </a>
             </li>
             <li className={utilStyles.listItem}>
