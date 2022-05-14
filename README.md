@@ -9,7 +9,9 @@ gh repo clone 0xTranqui/tranqui.dev
 
 3. For basic content updates, open pages/index.js and adjust section titles, content, and hyperlinks
 
-4. The rest is up to you
+4. Follow this [guide](https://nextjs.org/learn/basics/deploying-nextjs-app) (you can skip step 2 if you have already clowned this repo) for deploying your new site on Vercel
+
+5. The rest is up to you
 
 
 
