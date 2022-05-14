@@ -20,13 +20,87 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Hello, im <b>tranqui.eth</b>. I'm an up-and-coming web3 developer interested in public digital infrastructure. You can contact me on <a href="https://twitter.com/0xTranqui">Twitter</a>.</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+      <section className={utilStyles.headingPersonalDescription}>
+        <a
+          href="https://twitter.com/0xTranqui"
+          style={{ fontSize: "1.2rem", lineHeight: "1.5" }}
+        >
+          Twitter
+        </a>
+        <div 
+          style={{ paddingLeft: "5%", paddingRight: "5%", fontSize: "1.2rem", lineHeight: "1.5" }}
+        >
+          |
+        </div>
+        <a
+          style={{ fontSize: "1.2rem", lineHeight: "1.5" }}
+          href="https://github.com/0xTranqui"
+          /* style={{ justifySelf: "start", marginLeft: "5%"}} */
+        >
+          GitHub
+        </a>
       </section>
+      <div style={{ textAlign: "center" }}> 
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+          <h2 className={utilStyles.headingLg}>Work</h2>
+          <ul className={utilStyles.list}>
+            <li className={utilStyles.listItem}>
+              <a href="https://www.lostfound.world/">
+              lostfound.world 
+              </a>
+              {" - "} 
+              <a href="https://github.com/0xTranqui/lostandfound-zora-marketplace">
+              repo
+              </a>
+            </li>
+            <li className={utilStyles.listItem}>
+              <a href="https://www.lostfound.blue/">
+                lostfound.blue
+              </a>
+              {" - "} 
+              <a href="https://github.com/0xTranqui/lostandfound-optimism-marketplace">
+              repo
+              </a>            
+            </li>
+          </ul>
+        </section>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+          <h2 className={utilStyles.headingLg}>Writing</h2>
+          <ul className={utilStyles.list}>
+            <li className={utilStyles.listItem}>
+              <a href="https://twitter.com/0xTranqui/status/1506722429208567819?s=20&t=rZAv8pnSvFP0vSqJbSoS4Q">
+              Unofficial Guide to the ZORA Protocol
+              </a>
+            </li>
+            <li className={utilStyles.listItem}>
+              <a href="https://twitter.com/0xTranqui/status/1489388539464847366?s=20&t=rZAv8pnSvFP0vSqJbSoS4Q">
+                How to Become a Web3 Developer in 100 Days
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+          <h2 className={utilStyles.headingLg}>Inspiration</h2>
+          <ul className={utilStyles.list}>
+            <li className={utilStyles.listItem}>
+              <a href="https://youtu.be/eim8REOYLzA">
+                Future of the Digital World
+              </a> - Balaji Srinivasan & Tim Feriss            
+            </li>
+            <li className={utilStyles.listItem}>
+            <a href="https://jacob.energy/hyperstructures.html">
+                Hyperstructures
+              </a> - Jacob Horne          
+            </li>
+            <li className={utilStyles.listItem}>
+            <a href="https://dcbuilder.mirror.xyz/QX_ELJBQBm1Iq45ktPsz8pWLZN1C52DmEtH09boZuo0">
+                The Ultimate Guide to L2s on Ethereum
+              </a> - dcbuilder.eth         
+            </li>           
+          </ul>
+        </section>
+       </div> 
+{/*  commenting out blog section which ill be adding back in
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
@@ -45,6 +119,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>      
 
+ */}
     </Layout>
   );
 }
