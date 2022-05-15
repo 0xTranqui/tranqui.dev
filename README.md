@@ -25,6 +25,6 @@ npm run dev
 
 7. The rest is up to you
 
-"*" Bonus: Use this simple but great [guide](https://thoughtsonpaper.dev/blog/how-to-add-namecheap-domain-to-vercel) to buy a custom domain on namecheap and transfer it over to your Vercel deployment
+Bonus: Use this simple but great [guide](https://thoughtsonpaper.dev/blog/how-to-add-namecheap-domain-to-vercel) to buy a custom domain on namecheap and transfer it over to your Vercel deployment
 
 
