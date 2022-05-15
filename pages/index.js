@@ -20,7 +20,12 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingPersonalDescription}>
+      <section className={utilStyles.personalDescription}>
+        <div>
+        "web3 developer focused on creating new forms of public digital infrastructure uniquely enabled by blockchains"  
+        </div>
+      </section>
+      <section className={utilStyles.headingTwitterGithub}>
         <a
           href="https://twitter.com/0xTranqui"
           style={{ fontSize: "1.2rem", lineHeight: "1.5" }}
@@ -85,7 +90,7 @@ export default function Home({ allPostsData }) {
             <li className={utilStyles.listItem}>
               <a href="https://youtu.be/eim8REOYLzA">
                 Future of the Digital World
-              </a> - Balaji Srinivasan & Tim Feriss            
+              </a> - Balaji Srinivasan & Tim Ferriss            
             </li>
             <li className={utilStyles.listItem}>
             <a href="https://jacob.energy/hyperstructures.html">

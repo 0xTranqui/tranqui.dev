@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = "tranqui";
-export const siteTitle = 'tranqui sample website';
+export const siteTitle = 'tranqui.eth';
 
 export default function Layout({ children, home }) {
    return (
@@ -16,14 +16,16 @@ export default function Layout({ children, home }) {
            name="description"
            content="tranqui.eth personal website"
          />
-{/*          <meta
+         <meta
            property="og:image"
            content={`https://og-image.vercel.app/${encodeURI(
              siteTitle,
-           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-         /> */}
+           )}.png?theme=dark&md=0&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg`}
+         />
          <meta name="og:title" content={siteTitle} />
-         <meta name="twitter:card" content="summary_large_image" />
+         <meta name="twitter:card" content={`https://og-image.vercel.app/${encodeURI(
+             siteTitle,
+           )}.png?theme=dark&md=0&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg`} />
        </Head>
        <header className={styles.header} >
          {home ? (

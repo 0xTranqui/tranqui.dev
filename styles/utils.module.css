@@ -25,7 +25,15 @@
    line-height: 1.5;
  }
 
- .headingPersonalDescription {
+ .personalDescription {
+   width: 100%;
+   font-size: 1.2rem;
+   line-height: 1.8;
+   margin: 1rem 0;
+   text-align: center;
+ }
+
+ .headingTwitterGithub {
   font-size: 1.2rem;
   line-height: 1.5;
    display: flex;
