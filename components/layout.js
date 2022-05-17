@@ -27,11 +27,11 @@ export default function Layout({ children, home }) {
              siteTitle,
            )}.png?theme=dark&md=0&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg`}
           />
-         <meta name="twitter:card" content={summary_large_image}
+         <meta name="twitter:card" content="summary_large_image"
           />
-         <meta name="twitter:title" content={"tranqui.eth"}
+         <meta name="twitter:title" content="tranqui.eth"
           />
-         <meta name="twitter:description" content={"personal website"}
+         <meta name="twitter:description" content="personal website"
           />
          <meta name="twitter:image" content={`https://og-image.vercel.app/${encodeURI(
              siteTitle,
