@@ -300,6 +300,7 @@ At this point, I then took another 10 ish days to create a new version of the cu
    - Helpful Links:
       - HIGHLY recommend following this basic [guide](https://nextjs.org/learn/basics/create-nextjs-app/setup) to create next.js apps and deploy them to to Vercel
       - [How to](https://thoughtsonpaper.dev/blog/how-to-add-namecheap-domain-to-vercel) buy a cheap domain name and set it to your vercel deployment
+      - [How to](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) make sure your twitter link image preview looks good
    - My Code + Site:
       - [link to code](https://github.com/0xTranqui/tranqui.dev)
       - [link to site](https://tranqui.xyz/)
