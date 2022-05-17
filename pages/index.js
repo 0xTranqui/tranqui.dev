@@ -73,28 +73,21 @@ export default function Home({ allPostsData }) {
           <h2 className={utilStyles.headingLg}>Writing</h2>
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
+              <Link href={`/posts/100-days-of-code`}>
+                <a>Condensed Guide for Learning Full-Stack Web3 Development in 100 Days</a>
+              </Link>
+            </li>            
+            <li className={utilStyles.listItem}>
+              <a href="https://twitter.com/0xTranqui/status/1489388539464847366?s=20&t=rZAv8pnSvFP0vSqJbSoS4Q">
+                100 Day Learn to Code Experiment - Daily Logs
+              </a>
+            </li>
+            <li className={utilStyles.listItem}>
               <a href="https://twitter.com/0xTranqui/status/1506722429208567819?s=20&t=rZAv8pnSvFP0vSqJbSoS4Q">
               Unofficial Guide to the Zora Protocol
               </a>
-            </li>
-            <li className={utilStyles.listItem}>
-              <a href="https://twitter.com/0xTranqui/status/1489388539464847366?s=20&t=rZAv8pnSvFP0vSqJbSoS4Q">
-                How to Become a Web3 Developer in 100 Days
-              </a>
-            </li>
+            </li>            
           </ul>
-          <ul className={utilStyles.list}>
-            <li className={utilStyles.listItem}>
-              <Link href={`/posts/ssg-ssr`}>
-                <a>post #1</a>
-              </Link>
-            </li>
-            <li className={utilStyles.listItem}>
-              <Link href={`/posts/100-days-of-code`}>
-                <a>post #2</a>
-              </Link>
-            </li>
-        </ul>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Inspiration</h2>

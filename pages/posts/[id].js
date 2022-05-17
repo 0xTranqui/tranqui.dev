@@ -29,9 +29,13 @@ export default function Post({ postData }) {
         </Head>
         <article style={{ marginLeft: "5%", marginRight: "5%"}}>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+
+    
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
+
+
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
        </article>
      </Layout>

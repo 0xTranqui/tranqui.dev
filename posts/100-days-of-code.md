@@ -2,8 +2,8 @@
 title: 'Condensed Guide for Learning Web3 Development in 100 Days'
 date: '2022-05-17'
 ---
-
-**Below is a chronological list of every learning exercise + project I completed during my 100 day experiment:**
+\
+Below is a chronological list of every learning exercise + project I completed during my [100 day experiment](https://twitter.com/0xTranqui/status/1489388539464847366?s=20&t=iER0-l47pKmY8Gmk5kWbig):
 
 ---
 1. [FreeCodeCamp Responsive Web Design (except the final challenges)](https://www.freecodecamp.org/learn/responsive-web-design)
