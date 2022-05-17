@@ -25,7 +25,8 @@ export default function Layout({ children, home }) {
          <meta name="og:title" content={siteTitle} />
          <meta name="twitter:card" content={`https://og-image.vercel.app/${encodeURI(
              siteTitle,
-           )}.png?theme=dark&md=0&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg`} />
+           )}.png?theme=dark&md=0&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg`}
+          />
        </Head>
        <header className={styles.header} >
          {home ? (

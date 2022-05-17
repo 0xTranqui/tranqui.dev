@@ -142,7 +142,7 @@ Below is a chronological list of every learning exercise + project I completed d
       - [link to code](https://github.com/0xTranqui/youtube-randomizer)
       - [link to site](https://0xtranqui.github.io/youtube-randomizer/)
 ---
-18. [FCC React Course](https://www.freecodecamp.org/learn/front-end-development-libraries/#react)(only do the react section)
+18. [FCC React Course](https://www.freecodecamp.org/learn/front-end-development-libraries/#react) (only do the react section)
    - Skills Gained:
       - React
    - Miscellanous:
