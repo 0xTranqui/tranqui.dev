@@ -83,6 +83,18 @@ export default function Home({ allPostsData }) {
               </a>
             </li>
           </ul>
+          <ul className={utilStyles.list}>
+            <li className={utilStyles.listItem}>
+              <Link href={`/posts/ssg-ssr`}>
+                <a>post #1</a>
+              </Link>
+            </li>
+            <li className={utilStyles.listItem}>
+              <Link href={`/posts/100-days-of-code`}>
+                <a>post #2</a>
+              </Link>
+            </li>
+        </ul>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Inspiration</h2>
@@ -105,8 +117,8 @@ export default function Home({ allPostsData }) {
           </ul>
         </section>
        </div> 
-{/*  commenting out blog section which ill be adding back in
 
+{/*  commenting out the correct way to do a fully integrated blog section, for if I ever want it
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -123,8 +135,8 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>      
-
  */}
+
     </Layout>
   );
 }

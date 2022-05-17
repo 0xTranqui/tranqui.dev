@@ -23,11 +23,11 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
    return (
-     <Layout>
+     <Layout style={{ marginLeft: "10%"}}>
         <Head>
            <title>{postData.title}</title>
         </Head>
-        <article>
+        <article style={{ marginLeft: "5%", marginRight: "5%"}}>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
