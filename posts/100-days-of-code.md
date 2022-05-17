@@ -80,7 +80,7 @@ Below is a chronological list of every learning exercise + project I completed d
    - Miscellanous:
       - CSS Grid Garden was really helpful. Don't rush through it   
 ---
-10. Built calculator using css grid (doesn’t have to work) ***==== formatting is weird on this ====***
+10. Built calculator using css grid (doesn’t have to work)
    - Skills Gained:
       - HTML, CSS (grid focus)
    - My Code + Site:
@@ -186,7 +186,7 @@ At this point, my notes became slightly less detailed. This is because my confid
    - Skills Gained:
       - Solidity, dApp Infrastructure
    - Helpful Links:
-      - Start with this tutorial[walkthrough](https://www.youtube.com/watch?v=ui2j3HxsZVw)
+      - Start with this tutorial [walkthrough](https://www.youtube.com/watch?v=ui2j3HxsZVw)
    - Miscellanous:
       - Scaffold-Eth is kind of overwhelming. There is a lottt of extra stuff in it that you will never use/don’t understand. That is on purpose, because it allows you to do almost anything with it, but just keep this in mind   
 ---
