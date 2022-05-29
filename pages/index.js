@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.personalDescription}>
         <div>
-        "web3 developer focused on creating new forms of public digital infrastructure uniquely enabled by blockchains"  
+        "web3 developer exploring new forms of public digital infrastructure"  
         </div>
       </section>
       <section className={utilStyles.headingTwitterGithub}>
