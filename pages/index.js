@@ -50,6 +50,24 @@ export default function Home({ allPostsData }) {
           <h2 className={utilStyles.headingLg}>Work</h2>
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
+              <a href="https://gardens.feltzine.art/">
+              gardens.feltzine.art
+              </a>
+              {" - "} 
+              <a href="https://github.com/0xTranqui/felt-zine-delights">
+              repo
+              </a>
+            </li>            
+            <li className={utilStyles.listItem}>
+              <a href="https://findersfeefinder.xyz/">
+              findersfeefinder.xyz
+              </a>
+              {" - "} 
+              <a href="https://github.com/0xTranqui/Finders-Fee-Finder">
+              repo
+              </a>
+            </li>
+            <li className={utilStyles.listItem}>
               <a href="https://www.lostfound.world/">
               lostfound.world 
               </a>
