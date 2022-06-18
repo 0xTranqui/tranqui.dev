@@ -57,6 +57,10 @@ export default function Home({ allPostsData }) {
               <a href="https://github.com/0xTranqui/felt-zine-delights">
               repo
               </a>
+              {" - "} 
+              <a href="https://twitter.com/0xTranqui/status/1537148175596789762">
+              guide
+              </a>              
             </li>            
             <li className={utilStyles.listItem}>
               <a href="https://findersfeefinder.xyz/">
@@ -65,6 +69,10 @@ export default function Home({ allPostsData }) {
               {" - "} 
               <a href="https://github.com/0xTranqui/Finders-Fee-Finder">
               repo
+              </a>
+              {" - "} 
+              <a href="https://twitter.com/ZORA_FFF/status/1531710410445012992?s=20&t=6__slhQckcv4hmI9UePppw">
+              guide
               </a>
             </li>
             <li className={utilStyles.listItem}>
